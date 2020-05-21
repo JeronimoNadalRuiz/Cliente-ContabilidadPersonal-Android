@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="example.com.contabilidadpersonal">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:name=".MyApplication"
+        android:icon="@drawable/logotipo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Registro"
+            android:label="@string/registro"
+            android:noHistory = "true">
+        </activity>
+        <activity
+            android:name=".Home"
+            android:label="Home">
+        </activity>
+        <activity
+            android:name=".Home2"
+            android:label="Home">
+        </activity>
+        <activity
+            android:name=".RealizarOperacion"
+            android:label="@string/realizar_operacion"
+            android:noHistory = "true">
+        </activity>
+        <activity
+            android:name=".OperacionesRecycler"
+            android:label="@string/busqueda">
+        </activity>
+        <activity
+            android:name=".EditarOperacion"
+            android:label="@string/editar_operacion"
+            android:noHistory = "true">
+        </activity>
+        <activity
+            android:name=".Buscador"
+            android:label="@string/busqueda"
+            android:noHistory = "true">
+        </activity>
+        <activity
+            android:name=".Graficos"
+            android:label="@string/graficos"
+            android:noHistory = "true">
+        </activity>
+    </application>
+</manifest>

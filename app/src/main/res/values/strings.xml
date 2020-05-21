@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Contabilidad Personal</string>
+    <string name="iniciaSesion">Iniciar Sesión</string>
+    <string name="registro">Registrarse</string>
+    <string name="usuario">Usuario</string>
+    <string name="nombre">Nombre</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="contraseña2">Repita la contraseña</string>
+    <string-array name="tipos">
+        <item>@string/gasto</item>
+        <item>@string/ingreso</item>
+    </string-array>
+    <string-array name="tipos2">
+        <item>@string/gastoIngreso</item>
+        <item>@string/gasto</item>
+        <item>@string/ingreso</item>
+    </string-array>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="seccion_1" translatable="false">Sección 1</string>
+    <string name="seccion_2" translatable="false">Sección 2</string>
+    <string name="otras_opciones" translatable="false">Otras opciones</string>
+    <string name="opcion_1" translatable="false">Opción 1</string>
+    <string name="opcion_2" translatable="false">Opción 2</string>
+    <string name="seccion_3" translatable="false">Sección 3</string>
+    <string name="menu_abierto" translatable="false">Menu Abierto</string>
+    <string name="menu_cerrado" translatable="false">Menu Cerrado</string>
+    <string name="fragment1" translatable="false">Fragment 1</string>
+    <string name="fragment2" translatable="false">Fragment 2</string>
+    <string name="fragment3" translatable="false">Fragment 3</string>
+    <string name="cantidad">Cantidad</string>
+    <string name="concepto">Concepto</string>
+    <string name="predefinido">Predefinido</string>
+    <string name="guardar">Guardar</string>
+    <string name="binvenido">Bienvenido a la apliación</string>
+    <string name="noOperaciones">no hay operaciones</string>
+    <string name="operaciones">operaciones</string>
+    <string name="buscador">Buscador</string>
+    <string name="realizar_operacion">Realizar operacion</string>
+    <string name="busqueda">Búsqueda</string>
+    <string name="graficos">Gráficos</string>
+    <string name="cerrar_sesion">Cerrar Sesión</string>
+    <string name="error_vacio">El campo no puede estar vacío</string>
+    <string name="error_servicio">Error accediendo al servicio</string>
+    <string name="error_usuario">El usuario ya existe</string>
+    <string name="error_incorrecto">Usuario y/o contraseña incorrectos</string>
+    <string name="gasto">Gasto</string>
+    <string name="ingreso">Ingreso</string>
+    <string name="editar_operacion">Editar Operación</string>
+    <string name="gastoIngreso">Gasto / Ingreso</string>
+</resources>
